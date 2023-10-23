@@ -3,17 +3,219 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+ body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #232323; 
+  color: #fff; 
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+
+header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  color: #023047;
+  color: #47a750e7;
+  background-color: #232323; 
+  padding: 20px;
+}
+
+
+main {
+  padding: 20px;
+  background-color: #232323; 
+}
+
+
+.h1f {
+  border: 8px solid #0fae54;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  background-color: #232323;
+  font-size: 2rem; 
+  text-shadow: 2px 2px 4px rgba(15, 174, 84, 0.5);
+}
+
+p{
+  background-color: #0fae54; 
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #c3dacd; 
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 2px #000000; 
+  transition: text-shadow 0.2s; 
+}
+
+p:hover {
+  text-shadow:3px 3px 10px #0fae54;
+  background-color: #088b45; 
+  color: #fff; 
+}
+.p1 {
+  border: 5px solid #0fae54;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  padding: 10px;
+}
+
+nav a {
+  color: #0fae54; 
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 26px; 
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+.li1 {
+  text-align: center;
+  display: list-item;
+  font-size: 2rem;
+  border: 1px solid #232323;
+  margin: 5px;
+}
+.li1 a {
+  text-decoration: none;
+  color: #fff; 
+  padding: 10px 20px;
+  border: 1px solid #0fae54; 
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+.li1 a:hover {
+  background-color: #0fae54; 
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 30%;
+  max-height: 100%;
+  height: auto;
+  border: 2px solid #0fae54;
+  border-radius: 5px; 
+  transition: transform 0.2s; 
+}
+
+
+img:hover {
+  transform: scale(1.05); 
+}
+
+
+form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 2px solid #0fae54;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: #0fae54;
+  font-weight: bold;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background-color: #555;
+  color: #fff; 
+  border: 1px solid #0fae54; 
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+select {
+  background-color: #555; 
+  color: #fff; 
+  border: 1px solid #0fae54; 
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #0fae54; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #088b45;
+}
+
+
+footer {
+  background-color: #232323; 
+  color: #fff; 
+  padding: 40px 0; 
+  text-align: center;
+}
+
+.logo {
+  width: 177px;
+  margin-left: 660px;
+  padding: 0.14rem;
+  display: block; 
+}
+
+
+nav h3 {
+  color: #0fae54;
+  font-size: 24px; 
+}
+
+.fotter-links {
+  text-align: center;
+  display:block ;
+  font-size: 2rem;
+  border: 1px solid #232323;
+  margin: 10px;
+  border: 1px solid #c3dacd; 
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(23, 200, 79, 0.2);
+  text-shadow: 1px 1px 2px #4886e2;
+  transition: text-shadow 0.2s;
+  background-color:#333;
 }
